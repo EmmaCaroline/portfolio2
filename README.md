@@ -1,12 +1,50 @@
-# React + Vite
+# Portfolio 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot of the app - broken image for now](src/assets/screenshot.png)
 
-Currently, two official plugins are available:
+Portfolio - Emma Caroline Brander
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This is my personal portfolio page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- [React](https://react.dev/) – JavaScript library for building user interfaces
+- [Vite](https://vitejs.dev/) – Fast build tool and development server
+- [React Router](https://reactrouter.com/) – Routing library for React applications
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for styling
+
+## Getting Started
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone git@github.com:EmmaCaroline/portfolio2.git
+   ```
+
+2. **Install dependencies**
+
+   Ensure you have Node.js installed. Then run:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the project in your browser**
+
+   Vite will start a development server and provide a local URL (e.g., http://localhost:5173). Open this link in your browser to view the project.
+
+5. **Build for production (optional)**
+
+   ```bash
+   npm run build
+   ```
