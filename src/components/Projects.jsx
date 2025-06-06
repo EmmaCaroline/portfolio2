@@ -1,7 +1,9 @@
+import TypewriterHeading from "../ui/TypewriterHeading";
+
 const Projects = () => {
   return (
-    <div>
-      <h1>test</h1>
+    <div className="max-w-[600px]">
+      <TypewriterHeading />
     </div>
   );
 };

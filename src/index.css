@@ -3,16 +3,14 @@
 @theme {
   /* Example of how to use this theme with the new Tailwind V4 */
 
-  /* Fonts 
-  --font-sans: 'Inter', sans-serif;
-  --font-heading: 'Roboto', sans-serif;
-  */
+  /* Fonts */
+  --font-heading: "Quicksand", sans-serif;
+  --font-body: "Roboto", sans-serif;
 
   /* Colors 
   --color-primary: oklch(0.7 0.15 240);   This is new - tokens
   --color-primary: #3b82f6;  But can also still use hex 
   */
-  --color-primary: #3b82f6;
 
   /* Spacings 
   --spacing-small: 8px;
