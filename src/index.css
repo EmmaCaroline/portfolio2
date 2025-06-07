@@ -1,22 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  /* Example of how to use this theme with the new Tailwind V4 */
-
   /* Fonts */
   --font-heading: "Quicksand", sans-serif;
   --font-body: "Roboto", sans-serif;
 
-  /* Colors 
-  --color-primary: oklch(0.7 0.15 240);   This is new - tokens
-  --color-primary: #3b82f6;  But can also still use hex 
-  */
-
-  /* Spacings 
-  --spacing-small: 8px;
-  --spacing-medium: 16px;
-  --spacing-large: 32px;
-  */
+  /* Colors */
+  --color-primary: #2e7d32;
+  --color-secondary: #fffbeb;
 }
 
 body {
@@ -24,4 +15,27 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@layer utilities {
+  @keyframes subtlePulse {
+    0%,
+    100% {
+      text-shadow:
+        0 0 0px #ffcc00,
+        0 0 0px #ffcc00,
+        0 0 0px #ffcc00;
+    }
+    50% {
+      text-shadow:
+        0 0 10px #ffcc00,
+        0 0 20px #ffcc00,
+        0 0 40px #ffcc00,
+        0 0 60px #ffcc00;
+    }
+  }
+
+  .animate-subtlePulse {
+    animation: subtlePulse 3s ease-in-out infinite;
+  }
 }

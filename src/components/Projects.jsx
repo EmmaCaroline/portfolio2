@@ -1,11 +1,6 @@
-import { Link } from "react-router-dom";
 import TypewriterHeading from "../ui/TypewriterHeading";
-
-const projectsData = [
-  { id: "proj1", title: "Project One" },
-  { id: "proj2", title: "Project Two" },
-  { id: "proj3", title: "Project Three" },
-];
+import projectData from "../ui/ProjectData";
+import ProjectCard from "../ui/ProjectCard";
 
 const Projects = () => {
   return (
@@ -13,17 +8,15 @@ const Projects = () => {
       <div className="p-8 md:p-16 mt-10 md:mt-16 lg:mt-32">
         <TypewriterHeading />
       </div>
-      <div>
-        <h2 className="text-white">Projects</h2>
-        <ul>
-          {projectsData.map((project) => (
-            <li key={project.id}>
-              <Link className="text-white" to={`/project/${project.id}`}>
-                {project.title}
-              </Link>
-            </li>
+      <div className="px-8 md:px-16 mt-48">
+        <h2 className="text-white font-heading text-base md:text-lg mb-8 animate-subtlePulse">
+          Take a look at my recent projects:
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4 lg:gap-8 xl:gap-10">
+          {projectData.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
-        </ul>
+        </div>
       </div>
     </>
   );

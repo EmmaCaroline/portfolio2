@@ -1,19 +1,10 @@
 import { useParams } from "react-router-dom";
-
-const projectsData = [
-  { id: "proj1", title: "Project One", description: "This is project one." },
-  { id: "proj2", title: "Project Two", description: "This is project two." },
-  {
-    id: "proj3",
-    title: "Project Three",
-    description: "This is project three.",
-  },
-];
+import projectData from "../ui/ProjectData";
 
 const Project = () => {
   const { projectId } = useParams();
 
-  const project = projectsData.find((p) => p.id === projectId);
+  const project = projectData.find((p) => p.id === projectId);
 
   if (!project) {
     return <p className="text-white">Project not found.</p>;
