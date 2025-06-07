@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
               className="w-full h-full object-cover"
             />
           </div>
-          <p className="text-gray-300">{project.description}</p>
+          <p className="text-gray-300">{project.descriptionShort}</p>
         </div>
       </div>
     </Link>

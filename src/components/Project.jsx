@@ -20,27 +20,27 @@ const Project = () => {
           className="w-full max-h-[500px] object-contain rounded-md shadow-lg"
         />
       </div>
-      <p className="text-gray-300 text-lg leading-relaxed">
-        {project.description}
-      </p>
       <div className="flex gap-4">
         <a
           href={project.liveUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded transition"
+          className="bg-primary hover:bg-green-600 text-white font-semibold py-1 px-4 rounded transition"
         >
-          View Live Site
+          Live Site
         </a>
         <a
           href={project.repoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:bg-gray-900 text-white font-semibold py-2 px-6 rounded transition"
+          className="bg-gray-800 hover:bg-gray-600 text-white font-semibold py-1 px-4 rounded transition"
         >
-          View GitHub Repo
+          GitHub Repo
         </a>
       </div>
+      <p className="text-gray-300 text-lg leading-relaxed mt-10 bg-black">
+        {project.descriptionLong}
+      </p>
     </div>
   );
 };

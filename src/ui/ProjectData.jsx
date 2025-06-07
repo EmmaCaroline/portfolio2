@@ -8,8 +8,9 @@ const projectData = [
     title: "Treasurebid",
     image: sp2Image,
     alt: "Screenshot of Semester Project 2",
-    description:
+    descriptionShort:
       "This is my Semester Project 2, built with Vite and vanilla JS, and styled with Tailwind",
+    descriptionLong: "This is the long description for project 1",
     liveUrl: "https://treasurebid.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/semester-project-2",
   },
@@ -18,8 +19,9 @@ const projectData = [
     title: "The Loopy Shop",
     image: jsfImage,
     alt: "Screenshot of Javascript Framworks project",
-    description:
+    descriptionShort:
       "This is my Javascript Frameworks project, built with Vite and React, and styled with Tailwind",
+    descriptionLong: "This is the long description for project 2",
     liveUrl: "https://theloopyshop.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/js-frameworks",
   },
@@ -28,8 +30,9 @@ const projectData = [
     title: "Holidaze",
     image: pe2Image,
     alt: "Screenshot of Project Exam 2",
-    description:
+    descriptionShort:
       "This is my Project Exam 2, built with Vite and React, and styled with Tailwind",
+    descriptionLong: "This is the long description for project 3",
     liveUrl: "https://pe2-emma-holidaze.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/project-exam-2",
   },
