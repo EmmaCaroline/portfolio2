@@ -20,7 +20,7 @@ const Layout = () => {
         </nav>
       </header>
       {/* Dark overlay behind everything */}
-      <div className="absolute inset-0 bg-black/50 z-0"></div>
+      <div className="fixed inset-0 bg-black/50 z-0"></div>
       <main className="flex-grow p-4 relative z-10">
         <Outlet />
       </main>
