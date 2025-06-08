@@ -1,5 +1,5 @@
 import TypewriterHeading from "../ui/TypewriterHeading";
-import projectData from "../ui/ProjectData";
+import projectData from "./ProjectData";
 import ProjectCard from "../ui/ProjectCard";
 
 const Projects = () => {
