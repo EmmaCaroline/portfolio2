@@ -12,7 +12,9 @@ const Project = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-8 min-h-screen">
-      <h2 className="text-white text-3xl font-bold mb-6">{project.title}</h2>
+      <h2 className="text-white text-xl md:text-2xl lg:text-3xl font-heading font-medium mb-6">
+        {project.title}
+      </h2>
       <div className="mb-8">
         <img
           src={project.image}
@@ -25,7 +27,7 @@ const Project = () => {
           href={project.liveUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary hover:bg-green-600 text-white font-semibold py-1 px-4 rounded transition"
+          className="bg-primary hover:bg-green-600 text-white font-body text-sm md:text-base py-1 px-4 rounded shadow-lg border border-black transition-all duration-300 hover:scale-110"
         >
           Live Site
         </a>
@@ -33,14 +35,18 @@ const Project = () => {
           href={project.repoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:bg-gray-600 text-white font-semibold py-1 px-4 rounded transition"
+          className="bg-gray-800 hover:bg-gray-600 text-white font-body text-sm md:text-base py-1 px-4 rounded shadow-lg border border-black transition-all duration-300 hover:scale-110"
         >
           GitHub Repo
         </a>
       </div>
-      <p className="text-gray-300 text-lg leading-relaxed mt-10 bg-black">
-        {project.descriptionLong}
-      </p>
+      <div className="text-gray-300 text-sm lg:text-base font-body leading-relaxed mt-8 px-2 py-2 bg-black">
+        {project.descriptionLong.split(/\n\s*\n/).map((para, i) => (
+          <p key={i} className="mb-4">
+            {para.trim()}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };
