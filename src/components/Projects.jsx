@@ -5,10 +5,10 @@ import ProjectCard from "../ui/ProjectCard";
 const Projects = () => {
   return (
     <>
-      <div className="p-8 md:p-16 mt-10 md:mt-16 lg:mt-32">
+      <div className="p-8 md:p-16 mt-24 md:mt-28 lg:mt-32">
         <TypewriterHeading />
       </div>
-      <div className="px-8 md:px-16 mt-48">
+      <div className="px-8 md:px-16 mt-40">
         <h2 className="text-white font-heading text-base md:text-lg mb-8 animate-subtlePulse">
           Take a look at my recent projects:
         </h2>
