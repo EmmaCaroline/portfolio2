@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function TypewriterHeading() {
   const [text, setText] = useState("");
-  const fullText = "Welcome - I'm Emma Caroline Brander, a front-end developer";
+  const fullText = "Welcome - I'm Emma Caroline, a front-end developer";
 
   useEffect(() => {
     let index = 0;
