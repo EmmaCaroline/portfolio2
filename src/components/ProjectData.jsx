@@ -22,9 +22,10 @@ const projectData = [
     
     New changes made:
 
-    - Implemented more comprehensive API response handling by adding utility functions for fetch and error response.
+    - Implemented more comprehensive API response handling by creating utility functions for fetch 
+      requests and error handling.
     
-    - Implemented unit testing for critical functions.`,
+    - Implemented unit tests for key functions.`,
     liveUrl: "https://treasurebid.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/semester-project-2",
   },
@@ -47,7 +48,7 @@ const projectData = [
     
     New changes made:
     
-    - Implemented small code fixes to make it correct and cleaner, and implemented JSDoc documentation. `,
+    - Implemented  several small code improvements, and added JSDoc documentation. `,
     liveUrl: "https://theloopyshop.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/js-frameworks",
   },
