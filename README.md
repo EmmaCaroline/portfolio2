@@ -1,6 +1,6 @@
 # Portfolio 2
 
-![Screenshot of the app - broken image for now](src/assets/screenshot.png)
+![Screenshot of the app](src/assets/Screen_portfolio2.png)
 
 Portfolio - Emma Caroline Brander
 
