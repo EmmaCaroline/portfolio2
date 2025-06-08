@@ -11,7 +11,7 @@ const Project = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-8 min-h-screen">
+    <div className="mx-auto px-6 py-8 min-h-screen max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
       <h2 className="text-white text-xl md:text-2xl lg:text-3xl font-heading font-medium mb-6">
         {project.title}
       </h2>
