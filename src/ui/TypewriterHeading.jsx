@@ -16,7 +16,7 @@ export default function TypewriterHeading() {
   }, []);
 
   return (
-    <h1 className="mx-auto text-white text-3xl md:text-4xl lg:text-5xl font-heading text-left sm:text-center whitespace-normal">
+    <h1 className="mx-auto text-white text-3xl md:text-4xl font-heading text-left sm:text-center whitespace-normal">
       {text}
       <span className="animate-pulse">|</span>
     </h1>
