@@ -18,14 +18,8 @@ const projectData = [
     
     This project is built with Vite and vanilla JS, and styled with Tailwind. The project integrates with a CORS-enabled RESTful API, 
     utilizing GET, POST, PUT, and DELETE HTTP methods for full CRUD operations. It securely authenticates requests by including both a JWT 
-    access token and an API key in the headers.
-    
-    New changes made:
+    access token and an API key in the headers.`,
 
-    - Implemented more comprehensive API response handling by creating utility functions for fetch 
-      requests and error handling.
-    
-    - Implemented unit tests for key functions.`,
     liveUrl: "https://treasurebid.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/semester-project-2",
   },
@@ -44,11 +38,8 @@ const projectData = [
     
     The project is built with Vite and React, and styled with Tailwind. This project marked my introduction to React; 
     learning about JavaScript frameworks revolutionized my coding experience by making it clearer, more structured, and 
-    easier to maintain.
-    
-    New changes made:
-    
-    - Implemented  several small code improvements, and added JSDoc documentation. `,
+    easier to maintain.`,
+
     liveUrl: "https://theloopyshop.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/js-frameworks",
   },
@@ -68,11 +59,8 @@ const projectData = [
     
     The project is built with Vite and React, and styled with Tailwind. The project integrates with a CORS-enabled RESTful API, 
     utilizing GET, POST, PUT, and DELETE HTTP methods for full CRUD operations. It securely authenticates requests by including both a JWT 
-    access token and an API key in the headers 
-    
-    New changes made:
-    
-    - Updated README file `,
+    access token and an API key in the headers.`,
+
     liveUrl: "https://pe2-emma-holidaze.netlify.app/",
     repoUrl: "https://github.com/EmmaCaroline/project-exam-2",
   },

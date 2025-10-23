@@ -21,9 +21,7 @@ const About = () => {
           <div className="sm:w-1/2 mt-6 sm:mt-0">
             <p className="text-gray-300 font-body text-sm">
               My name is Emma Caroline Brander, and I'm a front-end developer
-              based in Vestfold, Norway. I'm currently in the final stage of my
-              studies, will soon graduate with a Higher Professional Degree in
-              Frontend Development.
+              based in Vestfold, Norway.
             </p>
             <p className="text-gray-300 font-body text-sm mt-4">
               I started my coding journey in 2022, and was immediately drawn to
